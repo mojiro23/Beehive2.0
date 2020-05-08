@@ -3,27 +3,35 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <link rel="manifest" href="js/manifest.json" />
     <script src="js/todo.js"></script>
+    
+    
     <!-- Bootstrap CSS -->
     <link rel= "stylesheet" href = "css/bootstrap.min.css">
 
     <title>Bees Todos</title>
+    
   </head>
   <body>
 
     <div class= "border border-dark">
          
-    <div class= "border border-dark mt-2 mr-2 ml-2";>
-      <h1 class="text-dark">The Beehive</h1>
-    </div>
+      <div class= "border border-dark mt-2 mr-2 ml-2 rounded bg-warning";>
+        <img src="Resources/hive.jpg" class="card-img-top ml-2 mt-0.1 mb-1 mr-1 mt-1 " style="width: 40px";style="heigth: 40px";>
+        <h1 class="text-dark"style="float:left";>The Beehive</h1>
+        </div>
     
     <div class= "container-fluid mt-5">
-      <a href="index.html" class="btn btn-primary">Inicio</a>
+      <a href="index.html" class="btn btn-primary">Index</a>
+      <div class="container-fluid">
+        <img src="Resources/status.jpg" class="ml-2 mb-1 mr-1 mt-2"style="width: 200px";style="heigth: 200px";>
+      </div>
     </div>
 
-    <div class= "border border-danger mt-5 ml-3"style="width: 670px";>
-    <h1 class="text-danger ml-3">Bees Todos</h1>
+    <div class= "border border-danger mt-2 ml-3 rounded bg-warning"style="width: 670px";>
+      <h1 id= "todousername" class="text-dark ml-3">Bees todo's</h1>
   
        
       <div id = "contenido" class= "container-fluid">
